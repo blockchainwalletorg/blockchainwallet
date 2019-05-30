@@ -1,7 +1,7 @@
 <html>
   <head>
     {% include head.html %}
-    {% seo %}
+    <meta property="og:title" content="Getting Started with Bitcoin">
   </head>
      
 <body>
