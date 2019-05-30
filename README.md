@@ -1,3 +1,15 @@
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- BlockchainWalletOrg -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4103758802938532"
+     data-ad-slot="4696147191"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <h1>Getting Started with Bitcoin & Blockchain</h1>
 
 Bitcoin operates with no central authority; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source, nobody owns or controls bitcoin and everyone can participate. Through many of its unique properties, bitcoin allows for exciting uses that could not be covered by any previous payment system. Ready to get started?
