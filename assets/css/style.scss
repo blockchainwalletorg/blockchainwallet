@@ -3,6 +3,9 @@
 
 @import "{{ site.theme }}";
 
+/* Custom theme CSS goes below this line */
+
+#header_wrap,
 #footer_wrap {
   display:none;
 }
