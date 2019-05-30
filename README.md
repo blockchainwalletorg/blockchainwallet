@@ -18,19 +18,19 @@ Bitcoin operates with no central authority; managing transactions and the issuin
 
 The first step to participating is to buy your first Bitcoin. Don’t worry, you don’t have to buy a whole Bitcoin, as it can be denominated into smaller units, such as buying half or a quarter of a Bitcoin. You can buy as much or as little as you want. 
 
-<a id="b1" href="https://www.coinbase.com/join/52796cadcca2c875f7000010">Buy Bitcoin and Earn $10 Free</a>
+<a id="b1" href="https://bch.gg/satoshi">Buy Bitcoin and Earn $10 Free</a>
 
 <h2>Step 2: Store your Bitcoin in a wallet</h2>
 
 Blockchain Wallet is the world’s most popular and secure online Bitcoin wallet. It’s free and open source. It is the safest and most popular wallet for investing and storing cryptocurrencies. 
 
-<a id="b2" href="https://www.blockchain.com/wallet">Securely Store Bitcoin for Free</a>
+<a id="b2" href="https://bch.gg/blockchainwallet">Securely Store Bitcoin for Free</a>
 
 <h2>Step 3: Spend your Bitcoin</h2>
 
 After buying and successfully storing your Bitcoin, you can help the Bitcoin economy and enjoy your new personal freedom by supporting Bitcoin merchants and helping the circular economy. It's time to order some Bitcoin swag!
 
-<a id="b3" href="https://store.bitcoin.com">Buy Cool Stuff Online using Bitcoin</a>
+<a id="b3" href="https://bch.gg/spend">Buy Cool Stuff Online using Bitcoin</a>
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- BlockchainWalletOrg -->
