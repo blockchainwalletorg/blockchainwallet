@@ -1,5 +1,6 @@
 <html>
   <head>
+    <title>Bitcoin</title>
     {% include head.html %}
     {% seo %}
   </head>
