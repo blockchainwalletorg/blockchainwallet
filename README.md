@@ -4,7 +4,7 @@ Bitcoin operates with no central authority; managing transactions and the issuin
 
 The first step to participating is to buy your first bitcoin. Don’t worry, you don’t have to buy a whole bitcoin, as it can be denominated into smaller units, such as buying half or a quarter of a bitcoin. 
 
-[Buy Bitcoin and Earn $10 Free](https://www.coinbase.com/join/52796cadcca2c875f7000010)
+<a id="b1" href="https://www.coinbase.com/join/52796cadcca2c875f7000010">Buy Bitcoin and Earn $10 Free</a>
 
 # Step 2: Store your bitcoin in a wallet
 
