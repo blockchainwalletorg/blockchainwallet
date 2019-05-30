@@ -1,6 +1,5 @@
 <html>
   <head>
-    {% include head.html %}
     <meta property="og:title" content="Getting Started with Bitcoin">
   </head>
      
