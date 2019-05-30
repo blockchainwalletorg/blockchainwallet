@@ -1,3 +1,11 @@
+<html>
+  <head>
+    {% include head.html %}
+    {% seo %}
+  </head>
+     
+<body>
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- BlockchainWalletOrg -->
 <ins class="adsbygoogle"
@@ -43,3 +51,6 @@ After buying and successfully storing your Bitcoin, you can help the Bitcoin eco
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+
+</body>
+</html>
