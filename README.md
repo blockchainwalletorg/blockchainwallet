@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+Bitcoin operates with no central authority; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source, nobody owns or controls bitcoin and everyone can participate. Through many of its unique properties, bitcoin allows for exciting uses that could not be covered by any previous payment system. Ready to get started?
 
-You can use the [editor on GitHub](https://github.com/blockchainwalletorg/blockchainwallet/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#Step 1: Buy your first bitcoin
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The first step to participating is to buy your first bitcoin. Don’t worry, you don’t have to buy a whole bitcoin, as it can be denominated into smaller units, such as buying half or a quarter of a bitcoin. 
 
-### Markdown
+[Buy Bitcoin and Earn $10 Free](https://t.umblr.com/redirect?z=https%3A%2F%2Fgoo.gl%2F2z4JGF&t=YjU5ZGJiYjI5MWQ5ZTg0OGQxMjBmODEzNWFmYjIxNDg4Mjg2ZTc5NixQODhRQXpjcg%3D%3D&b=t%3AkamcaRUi_2o31bt2vAD1FQ&p=https%3A%2F%2Fblockchainwallet.org%2Fpost%2F143970739385%2Fget-started-with-bitcoin&m=1)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#Step 2: Store your bitcoin in a wallet
 
-```markdown
-Syntax highlighted code block
+Blockchain Wallet is the world’s most popular and secure online bitcoin wallet. It’s free, open source, and trusted by more than 7 million users.
 
-# Header 1
-## Header 2
-### Header 3
+[Securely Store Bitcoin for Free](https://t.umblr.com/redirect?z=http%3A%2F%2Fgoo.gl%2Fa7IULT&t=YmI4Yzk4MjU5ZWRhNWM4OTIxZTY5NTIxYzY4NjQ5YWU5ODE5OGVmOCxQODhRQXpjcg%3D%3D&b=t%3AkamcaRUi_2o31bt2vAD1FQ&p=https%3A%2F%2Fblockchainwallet.org%2Fpost%2F143970739385%2Fget-started-with-bitcoin&m=1)
 
-- Bulleted
-- List
+#Step 3: Spend your bitcoin
 
-1. Numbered
-2. List
+After buying and successfully storing your bitcoin, you can help the bitcoin economy and enjoy your new personal freedom by supporting bitcoin merchants.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/blockchainwalletorg/blockchainwallet/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Buy Cool Stuff Online using Bitcoin](https://t.umblr.com/redirect?z=https%3A%2F%2Fgoo.gl%2FJaA9Mi&t=OWM1NzliY2I0MTJlMTNmNjNhMGM4NjA0MTUxZTFhNGVjOTk0MzUyYyxQODhRQXpjcg%3D%3D&b=t%3AkamcaRUi_2o31bt2vAD1FQ&p=https%3A%2F%2Fblockchainwallet.org%2Fpost%2F143970739385%2Fget-started-with-bitcoin&m=1)
