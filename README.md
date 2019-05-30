@@ -1,3 +1,4 @@
+<title>Get Started with Bitcoin</title>  
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- BlockchainWalletOrg -->
 <ins class="adsbygoogle"
