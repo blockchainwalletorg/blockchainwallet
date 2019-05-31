@@ -5,9 +5,20 @@
 
 /* Custom theme CSS goes below this line */
 
+body {
+  max-width:800px;
+  margin:auto;
+  background:#fff;
+  text-align:left;
+}
+
 #header_wrap,
 #footer_wrap {
   display:none;
+}
+
+h1 {
+  text-align:center;
 }
 
 h2 {
