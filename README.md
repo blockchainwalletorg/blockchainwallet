@@ -39,6 +39,8 @@ After buying and successfully storing your Bitcoin, you can help the Bitcoin eco
 
 <a id="b3" href="https://bch.gg/spend">Buy Cool Stuff Online using Bitcoin</a>
 
+{% include footer.html %}
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- BlockchainWalletOrg -->
 <ins class="adsbygoogle"
