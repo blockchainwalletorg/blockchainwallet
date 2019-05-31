@@ -1,6 +1,6 @@
 <html>
   <head>
-    <meta property="og:title" content="Getting Started with Bitcoin">
+    {% include seo %}
   </head>
      
 <body>
@@ -38,8 +38,6 @@ Blockchain Wallet is the world’s most popular and secure online Bitcoin wallet
 After buying and successfully storing your Bitcoin, you can help the Bitcoin economy and enjoy your new personal freedom by supporting Bitcoin merchants and helping the circular economy. It's time to order some Bitcoin swag!
 
 <a id="b3" href="https://bch.gg/spend">Buy Cool Stuff Online using Bitcoin</a>
-
-{% include footer.html %}
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- BlockchainWalletOrg -->
