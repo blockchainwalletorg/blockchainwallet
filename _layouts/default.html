@@ -96,16 +96,11 @@
     xmlhttp.send();
 
     function parseJson(json) {
-      var usdValue = "1 BTC equals to $" + json["bpi"]["USD"]["rate"];
-      var gbpValue = "1 BTC equals to &pound;" + json["bpi"]["GBP"]["rate"];
-      var euroValue = "1 BTC equals to &euro;" + json["bpi"]["EUR"]["rate"];
-
-      var time = "<b>Price Last Updated : " + json["time"]["updated"] + "</b>";
+      var usdValue = "The current price of Bitcoin is $" + json["bpi"]["USD"]["rate"] + "USD ";
+      var time = "<b>Price last updated : " + json["time"]["updated"] + "</b>";
 
       document.getElementById("data").innerHTML = 
 	      	   usdValue + "<br />" + 
-	      	   gbpValue + "<br />" + 
-	      	   euroValue + "<br />" + 
 	    	   time + "<br />";
 }
 </script>
