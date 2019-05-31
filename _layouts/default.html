@@ -100,12 +100,13 @@
       var gbpValue = "1 BTC equals to &pound;" + json["bpi"]["GBP"]["rate"];
       var euroValue = "1 BTC equals to &euro;" + json["bpi"]["EUR"]["rate"];
 
-      var time = "<b>Last Updated : " + json["time"]["updated"] + "</b>";
+      var time = "<b>Price Last Updated : " + json["time"]["updated"] + "</b>";
 
-      document.getElementById("data").innerHTML = usdValue + 
-		   "<br />" + gbpValue + 
-		   "<br />" + euroValue + 
-	    	   time + "<br /><br />";
+      document.getElementById("data").innerHTML = 
+	      	   usdValue + "<br />" + 
+	      	   gbpValue + "<br />" + 
+	      	   euroValue + "<br />" + 
+	    	   time + "<br />";
 }
 </script>
   
