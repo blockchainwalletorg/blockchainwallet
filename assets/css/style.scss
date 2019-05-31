@@ -6,10 +6,17 @@
 /* Custom theme CSS goes below this line */
 
 body {
-  max-width:800px;
+  max-width: 1000px;
   margin:auto;
-  background:#fff;
+  background:#eee;
   text-align:left;
+}
+
+.container {
+  background:#fff;
+  padding:10px 50px;
+  border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
 }
 
 #header_wrap,
