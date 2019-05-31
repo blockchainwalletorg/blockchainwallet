@@ -1,22 +1,3 @@
-<html>
-  <head>
-    {% include head.html %}
-  </head>
-     
-<body>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- BlockchainWalletOrg -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4103758802938532"
-     data-ad-slot="4696147191"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 <h1>Getting Started with Bitcoin & Blockchain</h1>
 
 Bitcoin operates with no central authority; managing transactions and the issuing of Bitcoin is carried out collectively by the network. Bitcoin is open-source, nobody owns or controls Bitcoin and everyone can participate. Through many of its unique properties, Bitcoin allows for exciting uses that could not be covered by any previous payment system. Ready to get started? Follow the easy steps below to begin! 
@@ -38,18 +19,3 @@ Blockchain Wallet is the world’s most popular and secure online Bitcoin wallet
 After buying and successfully storing your Bitcoin, you can help the Bitcoin economy and enjoy your new personal freedom by supporting Bitcoin merchants and helping the circular economy. It's time to order some Bitcoin swag!
 
 <a id="b3" href="https://bch.gg/spend">Buy Cool Stuff Online using Bitcoin</a>
-
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- BlockchainWalletOrg -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4103758802938532"
-     data-ad-slot="4696147191"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-</body>
-</html>
