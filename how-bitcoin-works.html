@@ -64,7 +64,32 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
   
-{% include footer.html %}
+<div class="footer">	
+<div id="data"></div>
+ <script type="text/javascript">
+    var xmlhttp = new XMLHttpRequest();
+    var price = "https://api.blockchair.com/stats";
+    xmlhttp.onreadystatechange = function() {
+      if (this.readyState == 4  &&  this.status == 200) {
+        var json = JSON.parse(this.responseText);
+        parseJson(json);
+      }		
+    };
+    xmlhttp.open("GET", price, true);
+    xmlhttp.send();
+    function parseJson(json) {
+      var btcusd = "The current price of Bitcoin (BTC) is $" + (json["data"]["bitcoin"]["data"]["market_price_usd"]).toFixed(2) + " USD";      
+      var bchusd = "The current price of Bitcoin (BCH) is $" + (json["data"]["bitcoin-cash"]["data"]["market_price_usd"]).toFixed(2) + " USD";
+      
+      document.getElementById("data").innerHTML = 
+	      	   btcusd + "<br />" + bchusd + "<br />" + "Bitcoin prices provided by Blockchair.com";
+};
+</script>
+  
+<p>
+  <center>BlockchainWallet.org <script>document.write(new Date().getFullYear())</script> | <a href="https://twitter.com/@blockchain_">@blockchain_</a></center>
+</p>
+</div>
 
 </div>
 
