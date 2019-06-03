@@ -99,7 +99,7 @@
     xmlhttp.send();
 
     function parseJson(json) {
-      var usdValue = "The current price of Bitcoin is $" + json["price"]/100.toFixed(2) + " USD";
+      var usdValue = "The current price of Bitcoin is $" + (json["price"]/100).toFixed(2) + " USD";
       var time = "<b>Price last updated " + json["stamp"] + "</b>";
 
       document.getElementById("data").innerHTML = 
