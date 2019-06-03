@@ -86,7 +86,7 @@
     // https://medium.com/@ssaurel/create-a-bitcoin-price-index-watcher-in-html5-f441b1e05cd1
 	  
     var xmlhttp = new XMLHttpRequest();
-    var url = "https://api.coindesk.com/v1/bpi/currentprice.json";
+    var url = "https://index-api.bitcoin.com/api/v0/cash/price/usd";
 
     xmlhttp.onreadystatechange = function() {
       if (this.readyState == 4  &&  this.status == 200) {
@@ -99,8 +99,8 @@
     xmlhttp.send();
 
     function parseJson(json) {
-      var usdValue = "The current price of Bitcoin is $" + json["bpi"]["USD"]["rate"] + " USD";
-      var time = "<b>Price last updated " + json["time"]["updated"] + "</b>";
+      var usdValue = "The current price of Bitcoin is $" + json["price"] + " USD";
+      var time = "<b>Price last updated " + json["stamp"] + "</b>";
 
       document.getElementById("data").innerHTML = 
 	      	   usdValue + "<br />" + time;
