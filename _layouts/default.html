@@ -80,8 +80,8 @@
 (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
   
-  <div id="data"></div>
-  <script type="text/javascript">
+ <div id="bchdata"></div>
+ <script type="text/javascript">
     // Create a Bitcoin Price Index Watcher in HTML5
     // https://medium.com/@ssaurel/create-a-bitcoin-price-index-watcher-in-html5-f441b1e05cd1
 	  
@@ -99,11 +99,11 @@
     xmlhttp.send();
 
     function parseJson(json) {
-      var usdValue = "The current price of Bitcoin is $" + (json["price"]/100).toFixed(2) + " USD";
+      var bchusd = "The current price of Bitcoin (BCH) is $" + (json["price"]/100).toFixed(2) + " USD";
       var time = "<b>Price last updated " + json["stamp"] + "</b>";
 
-      document.getElementById("data").innerHTML = 
-	      	   usdValue + "<br />" + time;
+      document.getElementById("bchdata").innerHTML = 
+	      	   bchusd + "<br />" + time;
 }
 </script>
   
