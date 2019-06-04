@@ -78,8 +78,8 @@
     xmlhttp.open("GET", price, true);
     xmlhttp.send();
     function parseJson(json) {
-      var btcusd = "The current price of Bitcoin (BTC) is $" + (json["data"]["bitcoin"]["data"]["market_price_usd"]).toFixed(2) + " USD";      
-      var bchusd = "The current price of Bitcoin (BCH) is $" + (json["data"]["bitcoin-cash"]["data"]["market_price_usd"]).toFixed(2) + " USD";
+      var btcusd = "The current price of Bitcoin (BTC) is $" + (json["data"]["bitcoin"]["data"]["market_price_usd"]).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " USD";      
+      var bchusd = "The current price of Bitcoin (BCH) is $" + (json["data"]["bitcoin-cash"]["data"]["market_price_usd"]).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " USD";
       
       document.getElementById("data").innerHTML = 
 	      	   btcusd + "<br />" + bchusd + "<br />" + "Bitcoin prices provided by Blockchair.com";
