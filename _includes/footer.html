@@ -1,6 +1,6 @@
 <div class="footer">	
 <div id="data"></div>
- <script type="text/javascript">
+<script type="text/javascript">
     var xmlhttp = new XMLHttpRequest();
     var price = "https://api.blockchair.com/stats";
     xmlhttp.onreadystatechange = function() {
@@ -12,11 +12,19 @@
     xmlhttp.open("GET", price, true);
     xmlhttp.send();
     function parseJson(json) {
-      var btcusd = "The current price of Bitcoin (BTC) is $" + (json["data"]["bitcoin"]["data"]["market_price_usd"]).toFixed(2) + " USD";      
-      var bchusd = "The current price of Bitcoin (BCH) is $" + (json["data"]["bitcoin-cash"]["data"]["market_price_usd"]).toFixed(2) + " USD";
+	    
+      var btcusd = "The current price of Bitcoin (BTC) is $" + (json["data"]["bitcoin"]["data"]["market_price_usd"]).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      var btcmcap = "with a market cap of $" + (json["data"]["bitcoin"]["data"]["market_cap_usd"]).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");      
+      
+      var bchusd = "The current price of Bitcoin (BCH) is $" + (json["data"]["bitcoin-cash"]["data"]["market_price_usd"]).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+      var bchmcap = "with a market cap of $" + (json["data"]["bitcoin-cash"]["data"]["market_cap_usd"]).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
       
       document.getElementById("data").innerHTML = 
-	      	   btcusd + "<br />" + bchusd + "<br />" + "Bitcoin prices provided by Blockchair.com";
+	btcusd + " " +
+	btcmcap + "<br />" +
+	bchusd + " " +
+	bchmcap + "<br />" +
+	"Bitcoin market data is in USD, provided by Blockchair.com";
 };
 </script>
   
