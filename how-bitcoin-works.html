@@ -78,7 +78,7 @@
     xmlhttp.open("GET", price, true);
     xmlhttp.send();
     function parseJson(json) {
-      var btcusd = "The current price of Bitcoin (BTC) is $" + (json["data"]["bitcoin"]["data"]["market_price_usd"]).replace(/\B(?=(\d{3})+(?!\d))/g, ",").toFixed(2) + " USD";      
+      var btcusd = "The current price of Bitcoin (BTC) is $" + (json["data"]["bitcoin"]["data"]["market_price_usd"]).toFixed(2) + " USD";      
       var bchusd = "The current price of Bitcoin (BCH) is $" + (json["data"]["bitcoin-cash"]["data"]["market_price_usd"]).toFixed(2) + " USD";
       
       document.getElementById("data").innerHTML = 
