@@ -20,9 +20,9 @@
       var bchmcap = "with a market cap of $" + (json["data"]["bitcoin-cash"]["data"]["market_cap_usd"]).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
       
       document.getElementById("data").innerHTML = 
-	"<img src=\"/images/btc.png\">" + btcusd + " " +
+	"<img alt=\"Bitcoin Core\" src=\"/images/btc.png\">" + btcusd + " " +
 	btcmcap + "<br />" +
-	"<img src=\"/images/bch.png\">" + bchusd + " " +
+	"<img alt=\"Bitcoin Cash\" src=\"/images/bch.png\">" + bchusd + " " +
 	bchmcap + "<br />" +
 	"Bitcoin market data is in USD, provided by Blockchair.com";
 };
