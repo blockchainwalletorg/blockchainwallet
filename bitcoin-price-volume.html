@@ -44,6 +44,7 @@
 
 <h1>Bitcoin Prices & Volume</h1>
 
+<div class="widget">
 <script type="text/javascript">
 baseUrl = "https://widgets.cryptocompare.com/";
 var scripts = document.getElementsByTagName("script");
@@ -54,11 +55,12 @@ if(appName==""){appName="local";}
 var s = document.createElement("script");
 s.type = "text/javascript";
 s.async = true;
-var theUrl = baseUrl+'serve/v1/coin/histo_week?fsym=BCH&tsym=BTC';
+var theUrl = baseUrl+'serve/v1/coin/histo_week?fsym=BTC&tsym=USD';
 s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
 embedder.parentNode.appendChild(s);
 })();
 </script>
+</div>
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- BlockchainWalletOrg -->
